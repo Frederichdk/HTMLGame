@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Quest Begins</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Pack Your Bag</h1>
+      <p>
+        Select the supplies you wish to take on your quest. Choose wisely, as
+        you can only carry a limited amount.
+      </p>
+      <form id="QuestForm" type="get" action="page4.html">
+        <fieldset>
+          <legend>Choose Your Supplies</legend>
+          <input type="checkbox" id="food" name="food" value="Food" />
+          <label for="food"><strong>Food:</strong> Essential for energy.</label
+          ><br />
+          <input type="checkbox" id="water" name="water" value="Water" />
+          <label for="water"><strong>water:</strong> Hydration is key!</label
+          ><br />
+          <input type="checkbox" id="Magic" name="Magic" value="Magic Potion" />
+          <label for="Magic"
+            ><strong>Magic Potion:</strong> For health and magical
+            energy.</label
+          ><br />
+          <input type="checkbox" id="map" name="map" value="Map" />
+          <label for="map"
+            ><strong>Map:</strong> Don't get lost in the wilderness!</label
+          ><br />
+          <input type="checkbox" id="sword" name="sword" value="Sword" />
+          <label for="sword"
+            ><strong>Sword:</strong> Fend off those pesky foes!</label
+          ><br />
+        </fieldset>
+        <input type="submit" />
+      </form>
+    </section>
+  </body>
+</html>

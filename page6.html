@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Final Showdown</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>The Final Showdown</h1>
+      <p>
+        After a long journey filled with trials and challenges, you finally
+        stand before Wilhelm's lair. The dark sorcerer awaits, the Crystal of
+        Wisdom in his grasp. It's time to make your move.
+      </p>
+      <!-- Your Code -->
+        <form id="finalForm" type="get" action="page7.html">
+      <fieldset>
+        <legend><strong>How will you confront Wilhelm</strong></legend>
+        <strong>Choose Wisely:</strong>
+        <select name="confront" id="confront">
+            <option value="">--Please choose an option--</option>
+            <option value="strength">Confront Wilhelm with Strength</option>
+            <option value="wisdom">Confront Wilhelm with Wisdom</option>
+            <option value="stealth">Confront Wilhelm with Stealth</option>
+        </select>
+
+      </fieldset>
+      <fieldset>
+        <legend><strong>Character Information</strong></legend>
+        
+        <fieldset>
+            <legend><strong>The Brave</strong></legend>
+            <label for="name">Your Name:</label>
+            <input id="name" type="textfield"/>
+          </fieldset>
+          <fieldset>
+            <legend><strong>Select Your Weapon</strong></legend> 
+            <input type="radio" id="sword" name="weapon" value="Sword" />
+            <label for="sword"><Strong>Sword</Strong></label>
+            <input type="radio" id="staff" name="weapon" value="Staff" />
+            <label for="staff"><Strong>Staff</Strong> </label>
+            <input type="radio" id="Bow" name="weapon" value="Bow" />
+            <label for="Bow"><Strong>Bow</Strong> </label>
+          </fieldset>
+          <fieldset>
+            <legend><strong>Select Your Armor</strong></legend>
+            <input type="checkbox" id="plate" name="armor" value="Plate" />
+            <label for="plate"><Strong>Plate</Strong></label>
+            <input type="checkbox" id="leather" name="armor" value="Leather" />
+            <label for="leather"><Strong>Leather</Strong></label>
+            <input type="checkbox" id="Cloak" name="armor" value="Cloak" />
+            <label for="Cloak"><Strong>Cloak</Strong></label>
+          </fieldset>
+          <label for="msg"><strong>Leave a Message for Wilhelm</strong></label></br>
+          <input id="msg" type="textfield" style="width: 80%; height: 60px;" />
+      </fieldset>
+        <button id="finalBtn" type="submit">Face Wilhelm</button>
+        </form>
+      <p>
+        Your choice here will determine the fate of the kingdom. Choose wisely.
+      </p>
+    </section>
+  </body>
+</html>
